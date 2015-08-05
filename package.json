@@ -1,0 +1,29 @@
+{
+  "name": "protocols",
+  "version": "1.0.0",
+  "description": "Get the protocols of an input url.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-protocols.git"
+  },
+  "keywords": [
+    "protocols",
+    "protocol",
+    "url",
+    "parse"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-protocols/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-protocols"
+}
