@@ -1,3 +1,4 @@
+// Dependencies
 var Protocols = require("../lib");
 
 console.log(Protocols("git+ssh://git@some-host.com/and-the-path/name"));
