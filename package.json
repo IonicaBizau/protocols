@@ -1,6 +1,6 @@
 {
   "name": "protocols",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get the protocols of an input url.",
   "main": "lib/index.js",
   "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-protocols/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-protocols"
+  "homepage": "https://github.com/IonicaBizau/node-protocols",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
