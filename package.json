@@ -1,6 +1,6 @@
 {
   "name": "protocols",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Get the protocols of an input url.",
   "main": "lib/index.js",
   "directories": {
