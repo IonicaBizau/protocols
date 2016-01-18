@@ -1,4 +1,4 @@
-# protocols [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-protocols.svg)](https://travis-ci.org/IonicaBizau/node-protocols/) [![Version](https://img.shields.io/npm/v/protocols.svg)](https://www.npmjs.com/package/protocols) [![Downloads](https://img.shields.io/npm/dt/protocols.svg)](https://www.npmjs.com/package/protocols) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# protocols [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/protocols.svg)](https://travis-ci.org/IonicaBizau/protocols/) [![Version](https://img.shields.io/npm/v/protocols.svg)](https://www.npmjs.com/package/protocols) [![Downloads](https://img.shields.io/npm/dt/protocols.svg)](https://www.npmjs.com/package/protocols) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get the protocols of an input url.
 
@@ -12,18 +12,18 @@ $ npm i --save protocols
 
 ```js
 // Dependencies
-var Protocols = require("protocols");
+const protocols = require("protocols");
 
-console.log(Protocols("git+ssh://git@some-host.com/and-the-path/name"));
-// => ["git", "ssh"]
+console.log(protocols("git+ssh://git@some-host.com/and-the-path/name"));
+// ["git", "ssh"]
 
-console.log(Protocols("http://ionicabizau.net", true));
-// => "http"
+console.log(protocols("http://ionicabizau.net", true));
+// "http"
 ```
 
 ## Documentation
 
-### `Protocols(input, first)`
+### `protocols(input, first)`
 Returns the protocols of an input url.
 
 #### Params
