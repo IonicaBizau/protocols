@@ -1,8 +1,8 @@
 // Dependencies
-var Protocols = require("../lib");
+const protocols = require("../lib");
 
-console.log(Protocols("git+ssh://git@some-host.com/and-the-path/name"));
-// => ["git", "ssh"]
+console.log(protocols("git+ssh://git@some-host.com/and-the-path/name"));
+// ["git", "ssh"]
 
-console.log(Protocols("http://ionicabizau.net", true));
-// => "http"
+console.log(protocols("http://ionicabizau.net", true));
+// "http"
