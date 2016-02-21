@@ -41,7 +41,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`is-ssh`](https://github.com/IonicaBizau/node-is-ssh)
 
- - [`parse-url`](https://github.com/IonicaBizau/node-parse-url)
+ - [`parse-url`](https://github.com/IonicaBizau/parse-url)
 
 ## License
 
