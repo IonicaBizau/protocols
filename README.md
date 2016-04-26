@@ -1,14 +1,18 @@
+
 # protocols [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/protocols.svg)](https://travis-ci.org/IonicaBizau/protocols/) [![Version](https://img.shields.io/npm/v/protocols.svg)](https://www.npmjs.com/package/protocols) [![Downloads](https://img.shields.io/npm/dt/protocols.svg)](https://www.npmjs.com/package/protocols) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get the protocols of an input url.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save protocols
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -21,7 +25,8 @@ console.log(protocols("http://ionicabizau.net", true));
 // "http"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `protocols(input, first)`
 Returns the protocols of an input url.
@@ -33,17 +38,19 @@ Returns the protocols of an input url.
 #### Return
 - **Array|String** The array of protocols or the specified protocol.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`is-ssh`](https://github.com/IonicaBizau/node-is-ssh)
 
- - [`parse-url`](https://github.com/IonicaBizau/parse-url)
+ - [`is-ssh`](https://github.com/IonicaBizau/node-is-ssh)—Check if an input value is a ssh url or not.
+ - [`parse-url`](https://github.com/IonicaBizau/parse-url)—An advanced url parser supporting git urls too.
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
