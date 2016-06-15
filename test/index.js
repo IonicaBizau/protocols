@@ -7,6 +7,10 @@ tester.describe("check urls", test => {
         test.expect(protocols("git+ssh://git@some-host.com/and-the-path/name")).toEqual(["git", "ssh"]);
     });
 
+    test.it("should detect no protocols", () => {
+        test.expect(protocols("//foo.com/bar.js")).toEqual([]);
+    });
+
     test.it("should support one protocol", () => {
         test.expect(protocols("ssh://git@some-host.com/and-the-path/name")).toEqual(["ssh"]);
     });
