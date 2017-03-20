@@ -1,6 +1,6 @@
 {
   "name": "protocols",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Get the protocols of an input url.",
   "main": "lib/index.js",
   "directories": {
@@ -20,7 +20,7 @@
     "url",
     "parse"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/protocols/issues"
@@ -34,12 +34,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
