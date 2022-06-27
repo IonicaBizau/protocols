@@ -7,7 +7,7 @@ Returns the protocols of an input url.
 
 #### Params
 
-- **String** `input`: The input url.
+- **String|URL** `input`: The input url (string or `URL` instance)
 - **Boolean|Number** `first`: If `true`, the first protocol will be returned. If number, it will represent the zero-based index of the protocols array.
 
 #### Return
