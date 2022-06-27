@@ -22,4 +22,7 @@ tester.describe("check urls", test => {
     test.it("should support taking the second protocol", () => {
         test.expect(protocols("git+ssh://git@some-host.com/and-the-path/name", 1)).toBe("ssh");
     });
+    test.it("should support taking the second protocol with an URL instance", () => {
+        test.expect(protocols(new URL("git+ssh://git@some-host.com/and-the-path/name"), 1)).toBe("ssh");
+    });
 });
