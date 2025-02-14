@@ -19,7 +19,7 @@
 
 # protocols
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/protocols.svg)](https://travis-ci.org/IonicaBizau/protocols/) [![Version](https://img.shields.io/npm/v/protocols.svg)](https://www.npmjs.com/package/protocols) [![Downloads](https://img.shields.io/npm/dt/protocols.svg)](https://www.npmjs.com/package/protocols) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/protocols.svg)](https://travis-ci.org/IonicaBizau/protocols/) [![Version](https://img.shields.io/npm/v/protocols.svg)](https://www.npmjs.com/package/protocols) [![Downloads](https://img.shields.io/npm/dt/protocols.svg)](https://www.npmjs.com/package/protocols) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -94,6 +94,7 @@ console.log(protocols("http://ionicabizau.net", true));
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -103,6 +104,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -169,76 +172,6 @@ Thanks! :heart:
 
 
 
-
-
-
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
- - `parse-url`
- - `parse-path`
- - `is-ssh`
- - `@enkeledi/react-native-week-month-date-picker`
- - `bb-parse-url`
- - `@hemith/react-native-tnk`
- - `miguelcostero-ng2-toasty`
- - `native-kakao-login`
- - `react-native-my-first-try-arun-ramya`
- - `react-native-kakao-maps`
- - `react-native-is7`
- - `react-native-ytximkit`
- - `react-native-payu-payment-testing`
- - `npm_one_1_2_3`
- - `react-native-biometric-authenticate`
- - `react-native-arunmeena1987`
- - `react-native-contact-list`
- - `rn-adyen-dropin`
- - `@positionex/position-sdk`
- - `@corelmax/react-native-my2c2p-sdk`
- - `@felipesimmi/react-native-datalogic-module`
- - `@hawkingnetwork/react-native-tab-view`
- - `react-native-cplus`
- - `npm_qwerty`
- - `native-apple-login`
- - `drowl-base-theme-iconset`
- - `react-native-arunjeyam1987`
- - `react-native-bubble-chart`
- - `react-native-flyy`
- - `@apardellass/react-native-audio-stream`
- - `@geeky-apo/react-native-advanced-clipboard`
- - `candlelabssdk`
- - `@saad27/react-native-bottom-tab-tour`
- - `generator-bootstrap-boilerplate-template`
- - `react-feedback-sdk`
- - `npm_one_12_34_1_`
- - `npm_one_2_2`
- - `payutesting`
- - `react-native-dsphoto-module`
- - `react-native-sayhello-module`
- - `react-native-responsive-size`
- - `@con-test/react-native-concent-common`
- - `luojia-cli-dev`
- - `birken-react-native-community-image-editor`
- - `reac-native-arun-ramya-test`
- - `react-native-arun-ramya-test`
- - `react-native-arunramya151`
- - `react-native-pulsator-native`
- - `react-native-plugpag-wrapper`
- - `react-native-transtracker-library`
- - `@screeb/react-native`
- - `@buganto/client`
- - `astra-ufo-sdk`
- - `angularvezba`
- - `react-native-syan-photo-picker`
- - `@wecraftapps/react-native-use-keyboard`
- - `l2forlerna`
- - `native-google-login`
- - `raact-native-arunramya151`
- - `react-native-modal-progress-bar`
- - `react-native-test-module-hhh`
- - `react-native-jsi-device-info`
- - `react-native-badge-control`
- - `rn-tm-notify`
 
 
 
